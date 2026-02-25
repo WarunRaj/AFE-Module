@@ -105,11 +105,11 @@ For real-world prototyping and testing:
 - Safety-critical threshold detection
 - Low-level analog signal processing
 
-## 📜 License
+## License
 This project is released for educational and research purposes.
 You are free to study, modify, and extend it with proper attribution.
 
-## 🤝 Contributions
+## Contributions
 Contributions, improvements, and discussions are welcome, especially in:
 
 - Noise optimization
