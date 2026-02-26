@@ -67,6 +67,18 @@ The system was designed and verified using the Falstad Circuit Simulator.
 
 - Output > 2.5 V reference
 
+## How to Run the Simulation
+To verify the circuit design and observe the signal chain in real-time:
+
+1. **Click the Link:** [Open Circuit in Falstad Simulator](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEBmB0BskBMAWdn0B2SQwgTghzJCR2RoFMBaMMAKAEMQcAOSELAnQh0PHgKEhqYJCyRh48KNDBZBouPkgIFdYTFWCykZGGRkeWZJHRVwiyJxBNeE4WExup4WTPsPlOBwEcm1eTGNIHkJxGCCQizFcMR4EISx-eDYAN2csKIEcfhZVQv5+CBlqOIhy5SqZKjpIMiw2ACdnVxwPLvFkZH1Mju4+bjhR-gGhhTgRl37B8FLpqHBCfMdO3iml0UWZjbnOj351L3OKxTYAYwvJVAzznHBYB3f4MGZCerUEY1M5ks1ls1TetTYAHc+gINjDVm0AOYwnrCBbcZAZcpsZGPLx4rBiNaOaHnMmSU5QKFeSlFCqeNrQungTzM3BnHGTcb8HYYrFUpljLBw3kIzlMfLidl5ArC-kkllnCmeVbIamU1asDKrBX7Lx61VsAAmzi1itNpVsAhARoYADMOABXAA2ABdjRaMqjPShIC8MraHS73dCSk8ijDpQq2RHeVHxWbvWHuK5sbkWMIrcmrXUI0g6jAEAnMy8MyAxtjOsnKcmo8Mq2bpcnrC8rnMuDwyMI5fYiT3pL55O8BNAkFhR-BrMgeOgZIQwHwfrMsp0eJiUAgMp3hHi28dy12NxkyIQd5u1svHMjdFNzzeUDxW1TcoRz3i19rz7n+PniaPOa+n4ZIBD5PgqJ5nhk967tS24CEScEwR4UFYL0PZmKUPYBvaTpukwzoMCalR-uwJxRFKcKsI+sL8gMV7gKYTyUYxvpgeqC7+pRqHdnCaqdHq5xwZcNArgewhjAoCF1Je6rkeWVx9rxsGHmMQkPGwAD2DEoPyPQmPU6T5m8cAQYZaxQfQapAA)
+2. **Interact:**
+   - Locate the **10mV DC Source** on the left.
+   - Right-click and select **Edit** to change the voltage (e.g., set to 10V to test the protection diodes).
+   - Observe the **LED** on the far right; it triggers only when the amplified signal exceeds the 2.5V threshold.
+3. **Scope View:** The bottom panel shows the real-time voltage levels across the different stages.
+
+---
+
 ## Hardware Implementation Recommendations
 
 For real-world prototyping and testing:
